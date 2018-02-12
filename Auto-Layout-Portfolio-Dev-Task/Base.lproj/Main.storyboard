@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="222.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8F4-1B-Wna">
-                                        <rect key="frame" x="65" y="-40" width="110" height="200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="222.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </stackView>
                                 </subviews>
@@ -32,7 +33,7 @@
                                 <rect key="frame" x="0.0" y="222" width="125" height="222.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="apb-33-YhT">
-                                        <rect key="frame" x="20" y="5" width="200" height="110"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="222.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </stackView>
                                 </subviews>
@@ -42,7 +43,7 @@
                                 <rect key="frame" x="125" y="222" width="125" height="222.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gzf-mD-SN9">
-                                        <rect key="frame" x="20" y="5" width="200" height="110"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="222.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </stackView>
                                 </subviews>
@@ -52,7 +53,7 @@
                                 <rect key="frame" x="250" y="221" width="125" height="225.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LRh-do-KLw">
-                                        <rect key="frame" x="20" y="5" width="125" height="222.5"/>
+                                        <rect key="frame" x="0.0" y="3" width="125" height="222.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </stackView>
                                 </subviews>
@@ -62,7 +63,7 @@
                                 <rect key="frame" x="0.0" y="444" width="375" height="222.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kWu-zB-rJc">
-                                        <rect key="frame" x="65" y="-40" width="110" height="200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="222.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </stackView>
                                 </subviews>
@@ -73,7 +74,9 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pzS-78-RSg" secondAttribute="bottom" constant="146" id="0XE-ni-zVo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pzS-78-RSg" secondAttribute="trailing" constant="68" id="3C3-uE-pyO"/>
+                            <constraint firstItem="pzS-78-RSg" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="125:667" id="3zS-F8-qfW"/>
                             <constraint firstItem="iXN-bj-oT3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="9sU-5U-cnf"/>
+                            <constraint firstItem="iXN-bj-oT3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="125:667" id="HPX-Yn-yoo"/>
                             <constraint firstItem="pzS-78-RSg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="381" id="Nqj-4w-3eu"/>
                             <constraint firstItem="miO-jK-Pqk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="PGq-R2-6aQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AnV-fS-Chr" secondAttribute="bottom" constant="18" id="T3f-Tq-ek8"/>
@@ -81,8 +84,11 @@
                             <constraint firstItem="AnV-fS-Chr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="509" id="Xnk-fG-8Am"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="miO-jK-Pqk" secondAttribute="trailing" constant="68" id="bwy-E5-Tf5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="miO-jK-Pqk" secondAttribute="top" constant="2" id="cN3-Ue-wSP"/>
+                            <constraint firstItem="Xth-Tl-zEx" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="125:667" id="cht-pA-YqP"/>
                             <constraint firstItem="Xth-Tl-zEx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="fws-nH-GGb"/>
                             <constraint firstItem="pzS-78-RSg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="kME-5z-rRI"/>
+                            <constraint firstItem="miO-jK-Pqk" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="375:667" id="mJg-8e-UkS"/>
+                            <constraint firstItem="AnV-fS-Chr" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="375:667" id="p2u-76-KeO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="miO-jK-Pqk" secondAttribute="bottom" constant="529" id="r4a-Tf-MYK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xth-Tl-zEx" secondAttribute="bottom" constant="274" id="rot-Ss-r4K"/>
                             <constraint firstItem="Xth-Tl-zEx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="253" id="siT-pB-agv"/>
